@@ -33,7 +33,7 @@ function getSampleFile(dirEntry, video) {
     var xhr = new XMLHttpRequest();
     
     if (video) {
-        xhr.open('GET', 'https://phantomreality.com/assets/videos/sample.mp4', true);
+        xhr.open('GET', 'https://xogo.blob.core.windows.net/assets/d6e128e2-d55a-450f-965d-671a74faa73a', true);
     } else {
         xhr.open('GET', 'https://assetsnffrgf-a.akamaihd.net/assets/m/102017094/univ/art/102017094_univ_lsr_lg.jpg', true);
     }
